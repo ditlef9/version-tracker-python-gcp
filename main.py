@@ -7,6 +7,7 @@ def main(request: flask.wrappers.Request):
     log_headline: str = "main()"
     print(f"{log_headline} · Init")
 
+
 if __name__ == '__main__':
     print("version-tracker local run")
 
